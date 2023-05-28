@@ -2,7 +2,7 @@ from collections import deque, namedtuple
 from random import randint
 import pyxel
 
-Point = namedtuple("Point", ["w", "h"])  # 猫の向き
+Point = namedtuple("Point", ["w", "h"]) 
 
 UP = Point(-16, 16)
 DOWN = Point(16, 16)
